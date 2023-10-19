@@ -1,0 +1,88 @@
+
+.background {
+    background: url(yeah.jpg)no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.intro {
+   display: grid;
+   place-items: center;
+   position: relative;
+}
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    border: solid black;
+    background-color: blue;
+}
+.section2 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: brown;
+    height: relative;
+    width: auto;
+    border: solid black;
+}
+
+.circle1 {
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    background-color: black;
+}
+
+.circle2 {
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+
+.circle3 {
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    background-color: green;
+}
+
+.circle4 {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+
+.circle5 {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+
+.circle6 {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    background-color: lightseagreen;
+}
+
+.trianglelarge {
+    width:  0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 200px solid yellowgreen;
+    z-index: 5;
+}
+
+.trianglesmall {
+    width:  0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 200px solid green;
+    z-index: ;
+}
